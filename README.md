@@ -1,4 +1,4 @@
-# [caderosche.dev](caderosche.dev)
+# [caderosche.dev](www.caderosche.dev)
 
 This is my portfolio website, deployed using netlify.
 
