@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+// font-family: 'Poppins', sans-serif;
+
+$white: rgb(248, 249, 250);
+$black: rgb(33, 37, 41);
+$grey: rgba($white, 0.55);
+
+@mixin poppins {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+@mixin poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+nav {
+  @include poppins;
+  .navbar-brand {
+    font-weight: 500;
+  }
+}
+
+.page-content {
+  h1 {
+    @include poppins-medium;
+    font-size: 3rem;
+    margin-bottom: 48px;
+    text-align: left;
+  }
+  img {
+    border-radius: 50%;
+  }
+  p {
+    @include poppins;
+    font-size: 1.5rem;
+    padding: 48px 0 0 0;
+    a {
+      color: $white;
+      transition: color 100ms ease-in;
+      &:hover {
+        color: $grey;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .page-content {
+    h1 {
+      font-size: 5rem;
+    }
+    p {
+      font-size: 3rem;
+      padding: 48px 0 0 0;
+    }
+  }
+}
