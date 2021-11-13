@@ -1,0 +1,25 @@
+{
+  "name": "portfolio-11-21",
+  "version": "1.0.0",
+  "description": "This is my portfolio website, deployed using netlify.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cprosche/portfolio-11-21.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cprosche/portfolio-11-21/issues"
+  },
+  "homepage": "https://github.com/cprosche/portfolio-11-21#readme",
+  "devDependencies": {
+    "grunt": "^1.4.1",
+    "grunt-contrib-cssmin": "^4.0.0",
+    "grunt-contrib-watch": "^1.1.0"
+  }
+}

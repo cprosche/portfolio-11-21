@@ -26,7 +26,7 @@ nav {
   h1 {
     @include poppins-medium;
     font-size: 3rem;
-    margin-bottom: 48px;
+    margin-bottom: 24px;
     text-align: left;
   }
   img {
@@ -35,7 +35,7 @@ nav {
   p {
     @include poppins;
     font-size: 1.5rem;
-    padding: 48px 0 0 0;
+    padding: 24px 0 0 0;
     a {
       color: $white;
       transition: color 100ms ease-in;

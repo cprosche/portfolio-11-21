@@ -12,7 +12,7 @@ nav .navbar-brand {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 3rem;
-  margin-bottom: 48px;
+  margin-bottom: 24px;
   text-align: left;
 }
 
@@ -24,7 +24,7 @@ nav .navbar-brand {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 1.5rem;
-  padding: 48px 0 0 0;
+  padding: 24px 0 0 0;
 }
 
 .page-content p a {
