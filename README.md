@@ -3,6 +3,6 @@
 This is my portfolio website, deployed using netlify.
 
 ## Improvement Ideas
-[] Add tech icons to projects
-[] Improve footer padding
-[] Contact form page
+- [ ] Add tech icons to projects
+- [ ] Improve footer padding
+- [ ] Contact form page
