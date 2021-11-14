@@ -4,6 +4,7 @@
 $white: rgb(248, 249, 250);
 $black: rgb(33, 37, 41);
 $grey: rgba($white, 0.55);
+$lighter-black: rgb(57, 64, 71);
 
 @mixin poppins {
   font-family: "Poppins", sans-serif;
@@ -22,7 +23,7 @@ nav {
   }
 }
 
-.page-content {
+.home-page-content {
   h1 {
     @include poppins-medium;
     font-size: 3rem;
@@ -45,14 +46,32 @@ nav {
     }
   }
 }
+.projects-page-content {
+  h1 {
+    @include poppins-medium;
+    font-size: 3rem;
+  }
+  .card {
+    background: $lighter-black;
+    @include poppins;
+  }
+  .card-title {
+    @include poppins-medium;
+  }
+}
 @media (min-width: 992px) {
-  .page-content {
+  .home-page-content {
     h1 {
       font-size: 5rem;
     }
     p {
       font-size: 3rem;
       padding: 48px 0 0 0;
+    }
+  }
+  .projects-page-content {
+    h1 {
+      font-size: 5rem;
     }
   }
 }

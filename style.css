@@ -8,7 +8,7 @@ nav .navbar-brand {
   font-weight: 500;
 }
 
-.page-content h1 {
+.home-page-content h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 3rem;
@@ -16,34 +16,54 @@ nav .navbar-brand {
   text-align: left;
 }
 
-.page-content img {
+.home-page-content img {
   border-radius: 50%;
 }
 
-.page-content p {
+.home-page-content p {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 1.5rem;
   padding: 24px 0 0 0;
 }
 
-.page-content p a {
+.home-page-content p a {
   color: #f8f9fa;
   -webkit-transition: color 100ms ease-in;
   transition: color 100ms ease-in;
 }
 
-.page-content p a:hover {
+.home-page-content p a:hover {
   color: rgba(248, 249, 250, 0.55);
 }
 
+.projects-page-content h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 3rem;
+}
+
+.projects-page-content .card {
+  background: #394047;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.projects-page-content .card-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
 @media (min-width: 992px) {
-  .page-content h1 {
+  .home-page-content h1 {
     font-size: 5rem;
   }
-  .page-content p {
+  .home-page-content p {
     font-size: 3rem;
     padding: 48px 0 0 0;
+  }
+  .projects-page-content h1 {
+    font-size: 5rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
