@@ -6,3 +6,4 @@ This is my portfolio website, deployed using netlify.
 - [ ] Add tech icons to projects
 - [ ] Improve footer padding
 - [ ] Contact form page
+- [ ] Add button hover states
