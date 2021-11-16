@@ -7,3 +7,8 @@ This is my portfolio website, deployed using netlify.
 - [ ] Improve footer padding
 - [ ] Contact form page
 - [ ] Add button hover states
+- [ ] SEO Improvements 
+-- [ ] site map
+-- [ ] meta tags
+-- [ ] Google Search Console
+-- [ ] Ahrefs
