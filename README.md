@@ -4,6 +4,7 @@ This is my portfolio website, deployed using netlify.
 
 ## Improvement Ideas
 - [ ] Add tech icons to projects
+- [ ] Dark mode/light mode switch
 - [ ] Improve footer padding
 - [ ] Contact form page
 - [ ] Add button hover states
