@@ -66,4 +66,16 @@ nav .navbar-brand {
     font-size: 5rem;
   }
 }
+
+.fa-js {
+  color: #f7df1e;
+}
+
+.fa-css3-alt {
+  color: #0d73b7;
+}
+
+.fa-html5 {
+  color: #e44d26;
+}
 /*# sourceMappingURL=style.css.map */
