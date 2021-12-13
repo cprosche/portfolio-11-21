@@ -65,9 +65,9 @@ nav {
   h1,
   label,
   p {
-    color: white;
+    color: $white;
   }
-  a {
+  p a {
     color: $white;
     transition: color 100ms ease-in;
     &:hover {

@@ -62,16 +62,16 @@ nav .navbar-brand {
 .contact-form h1,
 .contact-form label,
 .contact-form p {
-  color: white;
+  color: #f8f9fa;
 }
 
-.contact-form a {
+.contact-form p a {
   color: #f8f9fa;
   -webkit-transition: color 100ms ease-in;
   transition: color 100ms ease-in;
 }
 
-.contact-form a:hover {
+.contact-form p a:hover {
   color: rgba(248, 249, 250, 0.55);
 }
 
