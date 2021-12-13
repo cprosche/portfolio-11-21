@@ -11,13 +11,6 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
     <link rel="stylesheet" href="css/style.min.css" />
 
     <link
@@ -28,7 +21,6 @@
     <title>Cade Rosche</title>
   </head>
   <body class="bg-dark">
-    <!-- navbar -->
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
         <a class="navbar-brand" href="/home">Cade Rosche</a>
@@ -45,7 +37,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto">
-            <a class="nav-link active" aria-current="page" href="/projects">
+            <a class="nav-link" aria-current="page" href="/projects">
               Projects
             </a>
             <a
@@ -67,53 +59,55 @@
         </div>
       </div>
     </nav>
-
-    <!-- main page content -->
-    <div class="bg-dark text-light">
-      <div class="container">
-        <div class="projects-page-content py-5">
-          <!-- delete under here -->
-          <div class="row">
-            <div class="col-12">
-              <h1 class="mb-4">Projects</h1>
+    <div class="container contact-form">
+      <div class="row">
+        <div class="col-6 offset-3 my-5">
+          <h1 class="mb-3">Contact Me</h1>
+          <p class="mb-3">
+            Either email me at
+            <a href="mailto:caderosche@gmail.com" target="_blank"
+              >caderosche@gmail.com</a
+            >
+            or fill out the form below.
+          </p>
+          <form action="" class="needs-validation" novalidate netlify>
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="John Smith"
+                name="name"
+                required
+              />
             </div>
-            <div class="col-12 col-sm-6 col-lg-4">
-              <div class="card mb-4">
-                <!-- 16:9 image -->
-                <img
-                  src="img/tictactoe-project.PNG"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Tic Tac Toe</h5>
-                  <p class="card-text">
-                    A simple Tic Tac Toe game built out of JS, CSS, and HTML.
-                  </p>
-                  <p class="card-text">
-                    <i class="fab fa-js fa-2x me-2"></i>
-                    <i class="fab fa-css3-alt fa-2x me-2"></i>
-                    <i class="fab fa-html5 fa-2x"></i>
-                  </p>
-                  <a
-                    href="https://awesome-khorana-c83301.netlify.app/"
-                    class="btn btn-light me-1"
-                    >Test Project</a
-                  >
-                  <a
-                    href="https://github.com/cprosche/tictactoe"
-                    class="btn btn-light"
-                    >GitHub</a
-                  >
-                </div>
-              </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="name@example.com"
+                name="email"
+                required
+              />
             </div>
-          </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea
+                class="form-control"
+                id="message"
+                rows="3"
+                name="message"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-light">Send</button>
+          </form>
         </div>
       </div>
     </div>
-
-    <!-- footer -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container pb-5">
         <span class="navbar-text">&copy; Cade Rosche 2021</span>
@@ -124,5 +118,30 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <script>
+      // Example starter JavaScript for disabling form submissions if there are invalid fields
+      (function () {
+        "use strict";
+
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.querySelectorAll(".needs-validation");
+
+        // Loop over them and prevent submission
+        Array.prototype.slice.call(forms).forEach(function (form) {
+          form.addEventListener(
+            "submit",
+            function (event) {
+              if (!form.checkValidity()) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+
+              form.classList.add("was-validated");
+            },
+            false
+          );
+        });
+      })();
+    </script>
   </body>
 </html>

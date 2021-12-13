@@ -3,13 +3,14 @@
 This is my portfolio website, deployed using netlify.
 
 ## Improvement Ideas
-- [X] Add tech icons to projects
+- [X] ~~Add tech icons to projects~~
+- [X] ~~Contact form page~~
 - [ ] Dark mode/light mode switch
 - [ ] Improve footer padding
-- [ ] Contact form page
 - [ ] Add button hover states
 - [ ] SEO Improvements 
     - [ ] site map
     - [ ] meta tags
     - [ ] Google Search Console
     - [ ] Ahrefs
+- [ ] Add CTA on homepage

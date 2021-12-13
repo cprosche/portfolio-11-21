@@ -59,6 +59,22 @@ nav {
     @include poppins-medium;
   }
 }
+.contact-form {
+  @include poppins;
+
+  h1,
+  label,
+  p {
+    color: white;
+  }
+  a {
+    color: $white;
+    transition: color 100ms ease-in;
+    &:hover {
+      color: $grey;
+    }
+  }
+}
 @media (min-width: 992px) {
   .home-page-content {
     h1 {

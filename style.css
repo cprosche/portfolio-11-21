@@ -54,6 +54,27 @@ nav .navbar-brand {
   font-weight: 500;
 }
 
+.contact-form {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.contact-form h1,
+.contact-form label,
+.contact-form p {
+  color: white;
+}
+
+.contact-form a {
+  color: #f8f9fa;
+  -webkit-transition: color 100ms ease-in;
+  transition: color 100ms ease-in;
+}
+
+.contact-form a:hover {
+  color: rgba(248, 249, 250, 0.55);
+}
+
 @media (min-width: 992px) {
   .home-page-content h1 {
     font-size: 5rem;
